@@ -1,7 +1,9 @@
 from django.db import models
+import os
 
 class Post(models.Model):
     title = models.CharField(max_length=50)
+    hook_text = models.CharField(max_length=100, blank=True)
     content = models.TextField()
 
     created_at = models.DateTimeField(auto_now_add=True)
@@ -15,4 +17,10 @@ class Post(models.Model):
 
     def get_absolute_url(self):
         return f'/blog/{self.pk}'
+
+    def get_file_name(self):
+        return os.path.basename(self.file_upload.name)
+
+    def get_file_ext(self):
+        return self.get_file_name().split('.')[-1]
     # author: 추후 작성 예정

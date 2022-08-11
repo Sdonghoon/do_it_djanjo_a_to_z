@@ -8,8 +8,8 @@
         <meta name="author" content="" />
         <title>{{ post.title }} - Blog</title>
 
-        <link href="{% static 'blog/bootstrap5/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" media="screen">
-        <script src="https://kit.fontawesome.com/9c6355ff01.js" crossorigin="anonymous"></script>
+        <link href="{% static 'blog/bootstrap5/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+        <script src="https://kit.fontawesome.com/be4780e8bc.js" crossorigin="anonymous"></script>
 
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
@@ -51,15 +51,38 @@
                         <!-- Preview image figure-->
                         <figure class="mb-4">
                             {% if post.head_image %}
-                            <img class="img-fluid rounded" src="{{ post.head_image.url }}" alt="{{ post.title }}" /></figure>
+                            <img class="img-fluid rounded"
+                                 src="{{ post.head_image.url }}"
+                                 alt="{{ post.title }}" />
                             {% else %}
-                            <img class="card-img-top" src="https://picsum.photos/seed/{{ post.id }}/1000/600" alt="{{ post.title }} head image" />
+                            <img class="card-img-top"
+                                 src="https://picsum.photos/seed/{{ post.id }}/600/200"
+                                 alt="{{ post.title }}">
                             {% endif %}
+                        </figure>
                         <!-- Post content-->
                         <section class="mb-5">
-                            <p>
-                                {{ post.content }}
-                            </p>
+                             <p>
+                                 {{ post.content }}
+                             </p>
+                            {% if post.file_upload %}
+                            <a href="{{ post.file_upload.url }}"
+                               type="button" class="btn btn-outline-secondary"
+                               role="button" download>
+                                Download:
+                                {% if post.get_file_ext == 'xlsx' or post.get_file_ext == 'xls' %}
+                                <i class="fa-solid fa-file-excel"></i>
+                                {% elif post.get_file_ext == 'csv' %}
+                                <i class="fa-solid fa-file-csv"></i>
+                                {% elif post.get_file_ext == 'doc' or post.get_file_ext == 'docx' %}
+                                <i class="fa-solid fa-file-word"></i>
+                                {% else %}
+                                <i class="fa-solid fa-file"></i>
+                                {% endif %}
+                                {{ post.get_file_name }}
+                            </a>
+                            {% endif %}
+
                         </section>
                     </article>
                     <!-- Comments section-->
@@ -153,7 +176,7 @@
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
+        <!— Core theme JS—>
         <script src="js/scripts.js"></script>
     </body>
 </html>
