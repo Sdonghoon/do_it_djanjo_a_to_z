@@ -99,7 +99,7 @@ class TestView(TestCase):
         self.assertIn('아직 게시물이 없습니다', main_area.text)
 
     def test_post_detail(self):
-        self.assertEqual(self.post_001.get_absolute_url(), '/blog/1', )
+        self.assertEqual(self.post_001.get_absolute_url(), '/blog/1/', )
 
         response = self.client.get(self.post_001.get_absolute_url())
         self.assertEqual(response.status_code, 200)
