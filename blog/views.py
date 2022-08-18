@@ -49,7 +49,7 @@ class PostCreate(LoginRequiredMixin, UserPassesTestMixin, CreateView):
 
 class PostUpdate(LoginRequiredMixin, UpdateView):
     model = Post
-    fields = ['title', 'hook_text', 'content','head_image', 'file_upload','category']
+    fields = ['title', 'hook_text', 'content','head_image', 'file_upload', 'category']
 
     template_name = 'blog/post_update_form.html'
 
@@ -60,7 +60,6 @@ class PostUpdate(LoginRequiredMixin, UpdateView):
             for t in self.object.tags.all():
                 tags_str_list.append(t.name)
             context['tags_str_default'] = '; '.join(tags_str_list)
-
         return context
 
     def dispatch(self, request, *args, **kwargs):
@@ -86,7 +85,6 @@ class PostUpdate(LoginRequiredMixin, UpdateView):
                     tag.slug = slugify(t, allow_unicode=True)
                     tag.save()
                 self.object.tags.add(tag)
-
         return response
 
 def category_page(request, slug):

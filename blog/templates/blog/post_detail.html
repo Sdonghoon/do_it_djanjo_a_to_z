@@ -44,7 +44,7 @@
                         <!-- Post content-->
                         <section class="mb-5">
                              <p>
-                                 {{ post.content }}
+                                 {{ post.get_content_markdown | safe }}
                              </p>
                             {% if post.tags.exists %}
                                 <i class="fa-solid fa-tags"></i>
