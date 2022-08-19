@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15500f51-eca3-41e5-9b83-bfabd724f2cd" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/single_pages/static/single_pages/css/landing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single_pages/static/single_pages/images/BG123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single_pages/static/single_pages/images/DSC07371.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single_pages/templates/single_pages/about_me.html" beforeDir="false" afterPath="$PROJECT_DIR$/single_pages/templates/single_pages/about_me.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single_pages/templates/single_pages/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/single_pages/templates/single_pages/landing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single_pages/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/single_pages/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single_pages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/single_pages/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +62,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\github\do_it_djanjo_a_to_z\blog\templates\blog" />
       <recent name="C:\github\do_it_djanjo_a_to_z\blog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\github\do_it_djanjo_a_to_z\single_pages\static\single_pages\images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />

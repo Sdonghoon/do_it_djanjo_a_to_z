@@ -1,18 +1,51 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>신동훈입니다.</title>
+    <title>About Me</title>
+
+    <link href="{% static 'blog/bootstrap5/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" media="screen">
+    <script src="https://kit.fontawesome.com/9c6355ff01.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<nav>
-    <a href="/blog/">Blog</a>
-    <a href="/about_me/">About_me</a>
-</nav>
-<h1>안녕하세요.</h1>
-<h2>이력</h2>
-<h2>Portfolio</h2>
-<h3>아직 공사중입니다.</h3>
+{% include 'blog/navbar.html' %}
+<section>
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-lg-6 text-dark">
+                <h1 class="mt-5">Do It Django</h1>
+                <p>안녕하십니까 신동훈입니다.</p>
+                <p>"인생을 즐겁게 살자 그리고 지나간 일은 잊어버리자"
+                    라는 말을 항상 기억하며 살고있습니다.
+                    저는 게임하기 그리고 음악감상을 좋아합니다!
+                </p>
+                <p>대회 및 경력
+- AMD KOREA 라이젠 서포터즈 1기
+- 한국경영정보학회 2022 춘계 학술대회 장려상</p>
+                <p>학력
+- 경남고등학교(2012.03~2015.01) 졸업
+- 동의대학교(2015.03~2023.08) 졸업 (예정)
+- 디지털스마트부산 1기(2022.07~2022.12) 수료 (예정)</p>
+                <p>
+                    자격증
+- SQL 개발자
+- 데이터분석 준전문가(예정)
+- 빅데이터 분석 기사(예정)
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include 'blog/footer.html' %}
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+crossorigin="anonymous"></script>
 
 </body>
 </html>
