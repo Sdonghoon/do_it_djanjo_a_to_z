@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15500f51-eca3-41e5-9b83-bfabd724f2cd" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/single_pages/static/single_pages/css/about_me.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single_pages/static/single_pages/images/myphoto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single_pages/static/single_pages/images/딥러닝.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single_pages/static/single_pages/images/머신러닝.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single_pages/static/single_pages/images/빅데이터.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single_pages/static/single_pages/images/빅데이터2.jfif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single_pages/static/single_pages/images/DSC07371.JPG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/single_pages/templates/single_pages/about_me.html" beforeDir="false" afterPath="$PROJECT_DIR$/single_pages/templates/single_pages/about_me.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

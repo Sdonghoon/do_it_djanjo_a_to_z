@@ -17,7 +17,7 @@
     <div class="container mt-4">
         <div class="row">
             <div class="col-lg-8">
-                <h1>Do It Django</h1>
+                <h1>신동훈입니다.</h1>
                 <br/>
                 <p class="lead">
                     "인생을 즐겁게 살자 그리고 지나간 일은 잊어버리자." 라는 말을 항상 기억하며 살고있습니다.<br/>
@@ -34,7 +34,7 @@
                     <li>개인적인 경력</li>
                     <ul>
                         <li>AMD KOREA 라이젠 서포터즈 1기(2021.11.01~2021.11.31)</li>
-                        <li>동의대학교 경영정보학과 취업동아리 회장(2022.03~2022.12)</li>
+                        <li>동의대학교 경영정보학과 MISO(취업동아리) 회장(2022.03~2022.12)</li>
                         <li>한국경영정보학회 2022 춘계 학술대회 장려상</li>
                     </ul>
                     <li>자격증</li>
@@ -61,7 +61,7 @@
         </div>
         <div class="row">
             <div class="col-lg-4">
-                <div class="card">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#f1Modal">
                     <img class="card-img-top" src="{% static 'single_pages/images/빅데이터2.jfif' %}">
                     <div class="card-body">
                         <h5 class="card-title">파이썬으로 심부전 환자에 대한 컬럼 측정하기</h5>
@@ -70,7 +70,7 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="card">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#f2Modal">
                     <img class="card-img-top" src="{% static 'single_pages/images/머신러닝.png' %}">
                     <div class="card-body">
                         <h5 class="card-title">머신러닝과 딥러닝 기반 데이터 활용 기술</h5>
@@ -79,7 +79,7 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="card">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#f3Modal">
                     <img class="card-img-top" src="{% static 'single_pages/images/딥러닝.jfif' %}">
                     <div class="card-body">
                         <h5 class="card-title">문제해결 중심의 예비 실무 프로젝트</h5>
@@ -90,6 +90,87 @@
         </div>
     </div>
 </section>
+<!-- 모달 만들어보기 -->
+<!-- 모달 1--> <!-- 모달 1--> <!-- 모달 1--> <!-- 모달 1--> <!-- 모달 1--> <!-- 모달 1--> <!-- 모달 1--> <!-- 모달 1-->
+<div class="modal fade" id="f1Modal" tabindex="-1" aria-labelledby="f1ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="f1ModalLabel">파이썬으로 심부전 환자에 대한 컬럼 측정하기</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <img class="img-fluid" src="/static/single_pages/images/빅데이터2.jfif">
+                    </div>
+                    <div class="col-lg-5">
+                        <p>python, pandas, numpy, 선형회귀, 분류 모델을 사용하여 미니프로젝트를 만들었습니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 모달 2-->  <!-- 모달 2-->  <!-- 모달 2-->  <!-- 모달 2-->  <!-- 모달 2-->  <!-- 모달 2--> <!-- 모달 2-->
+<div class="modal fade" id="f2Modal" tabindex="-1" aria-labelledby="f2ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="f2ModalLabel">머신러닝과 딥러닝 기반 데이터 활용 기술</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <img class="img-fluid" src="/static/single_pages/images/머신러닝.png">
+                    </div>
+                    <div class="col-lg-5">
+                        <p>입력예정</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 모달 3--> <!-- 모달 3--> <!-- 모달 3--> <!-- 모달 3--> <!-- 모달 3--> <!-- 모달 3--> <!-- 모달 3-->
+<div class="modal fade" id="f3Modal" tabindex="-1" aria-labelledby="f3ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="f3ModalLabel">문제해결 중심의 예비 실무 프로젝트</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <img class="img-fluid" src="/static/single_pages/images/딥러닝.jfif">
+                    </div>
+                    <div class="col-lg-5">
+                        <p>입력예정</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 {% include 'blog/footer.html' %}
 
