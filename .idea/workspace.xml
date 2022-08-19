@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15500f51-eca3-41e5-9b83-bfabd724f2cd" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/single_pages/static/single_pages/css/landing.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single_pages/static/single_pages/images/BG123.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single_pages/static/single_pages/images/DSC07371.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single_pages/static/single_pages/css/about_me.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single_pages/static/single_pages/images/myphoto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single_pages/static/single_pages/images/딥러닝.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single_pages/static/single_pages/images/머신러닝.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single_pages/static/single_pages/images/빅데이터.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/single_pages/static/single_pages/images/빅데이터2.jfif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single_pages/static/single_pages/images/DSC07371.JPG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/single_pages/templates/single_pages/about_me.html" beforeDir="false" afterPath="$PROJECT_DIR$/single_pages/templates/single_pages/about_me.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single_pages/templates/single_pages/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/single_pages/templates/single_pages/landing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single_pages/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/single_pages/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single_pages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/single_pages/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
